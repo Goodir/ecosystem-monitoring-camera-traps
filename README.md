@@ -23,7 +23,7 @@ repo/
   project_wildlife_camera_shot.ipynb
   README.md
   requirements.txt
-  wcs_camera_traps.zip
+  wcs_camera_traps.json.zip
   src/
     download_dataset.py
   data/
