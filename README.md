@@ -53,6 +53,9 @@ repo/
 
 ## Установка
 ```bash
+git clone https://github.com/Goodir/ecosystem-monitoring-camera-traps.git
+cd ecosystem-monitoring-camera-traps
+
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
