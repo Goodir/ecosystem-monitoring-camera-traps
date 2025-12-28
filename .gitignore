@@ -1,0 +1,13 @@
+# data and outputs
+data/
+for_monitoring/
+wcs_camera_traps.json.zip
+
+# notebook junk
+.ipynb_checkpoints/
+
+# venv
+project_venv/
+
+# mac/windows
+.DS_Store
