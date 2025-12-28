@@ -10,9 +10,9 @@
 Hugging Face dataset: `jnle/wildlife_conservation_camera_trap_dataset`  
 Разметка: YOLO (class_id, x_center, y_center, w, h; нормированные координаты).
 
-В файле `wcs_camera_traps.zip` буду храниться мета данные по фотографиям, выгруженные с https://lila.science/datasets/wcscameratraps 
+В файле `wcs_camera_traps.json.zip` буду храниться мета данные по фотографиям, выгруженные с https://lila.science/datasets/wcscameratraps 
 
-**Важно:** разархивировать `wcs_camera_traps.zip` необязательно, скрипт в ipynb сам все сделает
+**Важно:** разархивировать `wcs_camera_traps.json.zip` необязательно, скрипт в ipynb сам все сделает
 
 После скачивания ожидается структура:
 
@@ -25,7 +25,7 @@ repo/
   requirements.txt
   wcs_camera_traps.json.zip
   src/
-    download_dataset.py
+    download_data.py
   data/
     camera_trap/
         camera_trap_dataset/
